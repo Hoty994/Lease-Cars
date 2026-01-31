@@ -1,5 +1,5 @@
 html {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 *,
@@ -21,13 +21,40 @@ li {
 body {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    font-weight: 400;
-}
+        font-weight: 400;
+    }
 
 .container {
     max-width: 1200px;
     padding: 0 50px;
     margin: 0 auto;
+}
+
+/*=========== Navigation =========== */
+.top-Navigation {
+    background-color: #151515;
+    width: 100%;
+}
+
+.Navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+
+}
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+#new-cars {
+    color: #0066FF;
 }
 
 /*=========== Main page =========== */
@@ -37,7 +64,13 @@ body {
 
 /*=========== Catalog page =========== */
 
-
+.сar-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
 
 
 
