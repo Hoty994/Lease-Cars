@@ -1,5 +1,4 @@
-// <<<<<<< HEAD
-
+// Initialize Swiper (if needed)    
 // const swiperTop = new Swiper('.top__swiper', {
 //     direction: 'horizontal',
 //     loop: true,
@@ -28,10 +27,10 @@
 //     },
 // });
 
-// const slides = document.querySelectorAll(".slides img");
-// const slideLine = document.querySelectorAll(".slide-line .line");
-// let slideInsex = 0;
-// let IntervalId = null;
+const slides = document.querySelectorAll(".slides img");
+const slideLine = document.querySelectorAll(".slide-line .line");
+let slideInsex = 0;
+let IntervalId = null;
 
 
 document.addEventListener("DOMContentLoaded", initializeSlider);
