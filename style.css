@@ -30,7 +30,14 @@ body {
     margin: 0 auto;
 }
 
-
+.button {
+    display: inline-block;
+    padding: 15px 60px;
+    background-color: black;
+    color: #fff;
+    font-weight: 700;
+    font-size: 21px;
+}
 
 /*=========== Navigation =========== */
 .top-Navigation {
@@ -44,30 +51,25 @@ body {
     padding: 10px 20px; 
     text-align: center;
     height: 100px;
-
-
-
 }
+
 .nav-links {
     display: flex;
     gap: 30px;
 }
+
 .nav-links li a:hover {
   color: #007bff;
   background-color: #f0f0f0;
   border-radius: 4px;
 }
 
-
-
 .nav-links a {
     color: #000000;
     font-weight: 500;
-    
-
 }
 
-.catalog-header .nav-links a {
+.nav-links a {
     color: #FFFFFF;
 }
 
@@ -84,7 +86,8 @@ body {
 .swiper-slide {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;}
+    background-position: center;
+}
     
 .index-header {
     position: absolute;
@@ -110,9 +113,11 @@ body {
     margin-top: 150px;
     margin-bottom: 40px;
 }
+
 .index-main__text .button {
     pointer-events: auto;
 }
+
 /* Sliper */
 
 .slider {
