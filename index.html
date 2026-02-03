@@ -6,26 +6,99 @@
     <title>Lease cars</title>
 
     <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
     
     <header class="index-header">
-        <div class="container">
-
-            <nav class="index-header__nav">
-                <img class="index-header__nav-image " src="./images/Logo.svg" alt="">
-                
-                <ul class="index-header__nav-list">
-                    <li class="index-header__nav-item">NEW CARS</li>
-                    <li class="index-header__nav-item">PRE-OWNED CARS</li>
-                    <li class="index-header__nav-item">FINANCE</li>
-                    <li class="index-header__nav-item">LEASE VS BUY</li>
-                    <li class="index-header__nav-item">CONTACT US</li>
-                </ul>
-            </nav>
-
+        <div class="top-Navigation">
+            <div class="container">
+                <nav class="Navigation">
+                    <img src="images/Vector.svg" alt="header-nav-logo" class="header-logo">
+                    <ul class="nav-links">
+                        <li class="choosed-element"><a href="index.html">NEW CARS</a></li>
+                        <li class="nav-list_item"><a href="#">PRE-OWNED CARS</a></li>
+                        <li class="nav-list_item"><a href="#">FINANCE</a></li>
+                        <li class="nav-list_item"><a href="#">LEASE VS BUY</a></li>
+                        <li class="nav-list_item"><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
+
+    <main class="index-main">
+    <div class="swiper top__swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url(images/img-index/background.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(images/img-catalog/lease_car1.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(images/img-catalog/lease_car4.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(images/img-catalog/lease_car3.jpg);"></div>
+        </div>
+        
+    </div>
+</main>
+
+        <div class="index-main__text">
+            <h1 class="index-main__title">Leasing From D&M</h1>
+            <a href="catalog.html" class="button">FIND A CAR</a>
+        </div>
+
+
+
+        <div class="slider">
+            <div class="slides">
+                <img src="./images/img-index/background.jpg" alt="" class="slide">
+                <img src="./images/img-index/video.jpg" alt="" class="slide">
+            </div>
+            <button class="slider-btn prev" onclick="prevSlide()">&#10094</button>
+            <button class="slider-btn next" onclick="nextSlide()">&#10095</button>
+
+            <div class="slide-line">
+                <div class="line active"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+        
+
+        <section class="advantages">
+            <div class="container">
+                <h3 class="advantages__title">Why Lease with D&M?</h3>
+                <div class="advantages__cards">
+
+                    <div class="advantages__cards-item">
+                        <div class="advantages__card-icon"><img src="./images/img-index/advantages_car.svg" alt="" class="advantages__card-image"></div>
+                        <h5 class="advantages__card-title">Top Dealers</h5>
+                        <p class="advantages__card-desc">TrueCar Certified Dealers compete for your business by providing discounted pricing on in-stock inventory.</p>
+                    </div>
+
+                    <div class="advantages__cards-item">
+                        <div class="advantages__card-icon"><img src="./images/img-index/advantages_interest.svg" alt="" class="advantages__card-image"></div>
+                        <h5 class="advantages__card-title">Discounted Pricing</h5>
+                        <p class="advantages__card-desc">View local inventory from the comfort of home and get access to guaranteed savings on the car of your choice.</p>
+                    </div>
+
+                    <div class="advantages__cards-item">
+                        <div class="advantages__card-icon"><img src="./images/img-index/advantages_card.svg" alt="" class="advantages__card-image"></div>
+                        <h5 class="advantages__card-title">Lower Payments</h5>
+                        <p class="advantages__card-desc">Get discounted pricing when you shop for a car or truck using TrueCar and save on your lease payment.</p>
+                    </div>
+
+                    <div class="advantages__cards-item">
+                        <div class="advantages__card-icon"><img src="./images/img-index/advantages_arrow.svg" alt="" class="advantages__card-image"></div>
+                        <h5 class="advantages__card-title">Easy Upgrade</h5>
+                        <p class="advantages__card-desc">Easy to upgrade to the newest vehicle model every few years if you would like to be modern and comfortable</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <script src="js/main.js"></script>
+
+<script src="js/main.js"></script>
 </body>
 </html>
