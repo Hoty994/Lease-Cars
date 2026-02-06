@@ -30,7 +30,14 @@ body {
     margin: 0 auto;
 }
 
-
+.button {
+    display: inline-block;
+    padding: 15px 60px;
+    background-color: black;
+    color: #fff;
+    font-weight: 700;
+    font-size: 21px;
+}
 
 /*=========== Navigation =========== */
 .top-Navigation {
@@ -44,30 +51,25 @@ body {
     padding: 10px 20px; 
     text-align: center;
     height: 100px;
-
-
-
 }
+
 .nav-links {
     display: flex;
     gap: 30px;
 }
+
 .nav-links li a:hover {
   color: #007bff;
   background-color: #f0f0f0;
   border-radius: 4px;
 }
 
-
-
 .nav-links a {
     color: #000000;
     font-weight: 500;
-    
-
 }
 
-.catalog-header .nav-links a {
+.nav-links a {
     color: #FFFFFF;
 }
 
@@ -78,13 +80,6 @@ body {
 }
 
 /*=========== Main page =========== */
-
-
-
-.swiper-slide {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;}
     
 .index-header {
     position: absolute;
@@ -110,9 +105,11 @@ body {
     margin-top: 150px;
     margin-bottom: 40px;
 }
+
 .index-main__text .button {
     pointer-events: auto;
 }
+
 /* Sliper */
 
 .slider {
@@ -178,8 +175,9 @@ img.displaySlide {
 /* Advantages */
 
 .advantages {
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
+
 .advantages__title {
     font-size: 36px;
     margin-top: 100px;
@@ -227,21 +225,62 @@ img.displaySlide {
     text-align: left;
 }
 
+/* Leasing */
 
-
-.swiper-pagination-bullet {
-    width: 120px;
-    height: 3px;
-    background-color: #151515;
-    border-radius: 0;
-    opacity: 1;
-    margin: 0 5px !important; /* Расстояние между полосками */
+.leasing {
+    margin-bottom: 150px;
 }
 
-.swiper-pagination-bullet-active {
-    height: 6px;
-    background-color: #fff; 
+.leasing .container {
+    max-width: 600px;
 }
+
+.leasing__container {
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+.leasing__title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 48px;
+}
+
+.leasing__text-top {
+    margin-bottom: 30px;
+}
+
+.leasing__subtitle {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.leasing__list {
+    margin-left: 100px;
+    margin-bottom: 70px;
+}
+
+.leasing__list-item {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leasing__list-circle {
+    padding: 25px 38px;
+    background-color: #0066FF;
+    color: #fff;
+    border-radius: 50%;
+
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.leasing__list-text {
+    max-width: 280px;
+}
+
 /*=========== Catalog page =========== */
     
 
