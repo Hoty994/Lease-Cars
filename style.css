@@ -177,6 +177,7 @@ img.displaySlide {
 .advantages {
     margin-bottom: 120px;
 }
+
 .advantages__title {
     font-size: 36px;
     margin-top: 100px;
@@ -226,6 +227,10 @@ img.displaySlide {
 
 /* Leasing */
 
+.leasing {
+    margin-bottom: 150px;
+}
+
 .leasing .container {
     max-width: 600px;
 }
@@ -248,6 +253,32 @@ img.displaySlide {
 .leasing__subtitle {
     font-size: 24px;
     margin-bottom: 30px;
+}
+
+.leasing__list {
+    margin-left: 100px;
+    margin-bottom: 70px;
+}
+
+.leasing__list-item {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leasing__list-circle {
+    padding: 25px 38px;
+    background-color: #0066FF;
+    color: #fff;
+    border-radius: 50%;
+
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.leasing__list-text {
+    max-width: 280px;
 }
 
 /*=========== Catalog page =========== */
