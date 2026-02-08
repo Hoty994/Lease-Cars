@@ -12,6 +12,7 @@ html {
 
 a {
     text-decoration: none;
+    color: #ffffff;
 }
 
 li {
@@ -64,10 +65,6 @@ body {
   border-radius: 4px;
 }
 
-.nav-links a {
-    color: #000000;
-    font-weight: 500;
-}
 
 .nav-links a {
     color: #FFFFFF;
@@ -77,6 +74,72 @@ body {
 .catalog-header .top-Navigation {
     background-color: black;
     margin-bottom: 100px;
+}
+
+
+
+.car-selection_nav-list_item a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* ============ Footer ============= */
+
+.footer {
+    background-color: #151515;
+    color: #f0f0f0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer .container {
+    max-width: 1020px;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.footer__info-item + .footer__info-item {
+    margin-top: 15px;
+}
+
+.item-title {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer__icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px ;
+}
+
+.footer__desc {
+    max-width: 810px;
+    text-align: center;
+    margin: 0 auto 50px auto;
+    align-items: center;
+}
+
+.footer__desc-text{
+    font-size: 14px;
+}
+
+.footer__policy{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer__policy-item{
+
 }
 
 /*=========== Main page =========== */
@@ -180,9 +243,8 @@ img.displaySlide {
 
 .advantages__title {
     font-size: 36px;
-    margin-top: 100px;
-    margin-left: 350px;
-    margin: 100px 0 60px 350px;
+    margin: 100px 0;
+    text-align: center;
 }
 
 .advantages__cards {
@@ -227,10 +289,6 @@ img.displaySlide {
 
 /* Leasing */
 
-.leasing {
-    margin-bottom: 150px;
-}
-
 .leasing .container {
     max-width: 600px;
 }
@@ -268,12 +326,12 @@ img.displaySlide {
 }
 
 .leasing__list-circle {
-    padding: 25px 38px;
+    padding: 20px 33px;
     background-color: #0066FF;
     color: #fff;
     border-radius: 50%;
 
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
 }
 
@@ -281,9 +339,73 @@ img.displaySlide {
     max-width: 280px;
 }
 
-/*=========== Catalog page =========== */
-    
+/* Video */
 
+.video {
+    margin: 150px 0;
+}
+
+.video__title {
+    text-align: center;
+    font-size: 50px;
+
+    margin-bottom: 30px;
+}
+
+.video__subtitle {
+    text-align: center;
+
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.video__block {
+    background-image: url(./images/img-index/video.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+/* Spare */
+
+.spare {
+    margin-bottom: 100px;
+    
+}
+
+.spare__title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.spare__desc {
+    max-width: 580px;
+    margin: 0 auto 50px auto;
+}
+
+.spare__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spare__card {
+    max-width: 270px;
+}
+
+.spare__card-image {
+    margin-bottom: 20px;
+}
+
+/* =========== Catalog page =========== */
+    
 
 .car-selection_title{
     text-align: center;
@@ -291,6 +413,13 @@ img.displaySlide {
     font-size: 48px;
 }
 
+.car-card__image {
+    display: block;
+    width: 100%;
+    height: 172px;
+
+
+}
 .car-selection_nav {
     display: flex;
     justify-content: center;
@@ -313,19 +442,34 @@ img.displaySlide {
 
 .car-card {
     width: 251px;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+
+    text-align: center;
     align-items: center;
     border: #000000 1px solid;
 }
 
-.car-card__info > *:not(:last-child) {
-  margin-bottom: 10px; /* или любое другое значение */
-}
+
 
 .car-card
 .car-selection_nav{
     display: flex;
 }
+
+.car-card__link {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px 20px; */
+    /* background-color: black; */
+    border: 1px solid #0066FF;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+.car-card__item {
+    padding-bottom: 10px;
+}
+
+
 
 /*=========== Contacts page =========== */
