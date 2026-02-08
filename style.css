@@ -75,6 +75,13 @@ body {
     margin-bottom: 100px;
 }
 
+
+.car-selection_nav-list_item a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 /*=========== Main page =========== */
 
 
@@ -253,6 +260,13 @@ img.displaySlide {
     font-size: 48px;
 }
 
+.car-card__image {
+    display: block;
+    width: 100%;
+    height: 172px;
+
+
+}
 .car-selection_nav {
     display: flex;
     justify-content: center;
@@ -275,19 +289,34 @@ img.displaySlide {
 
 .car-card {
     width: 251px;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+
+    text-align: center;
     align-items: center;
     border: #000000 1px solid;
 }
 
-.car-card__info > *:not(:last-child) {
-  margin-bottom: 10px; /* или любое другое значение */
-}
+
 
 .car-card
 .car-selection_nav{
     display: flex;
 }
+
+.car-card__link {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px 20px; */
+    /* background-color: black; */
+    border: 1px solid #0066FF;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+.car-card__item {
+    padding-bottom: 10px;
+}
+
+
 
 /*=========== Contacts page =========== */
