@@ -12,6 +12,7 @@ html {
 
 a {
     text-decoration: none;
+    color: #ffffff;
 }
 
 li {
@@ -77,6 +78,64 @@ body {
 .catalog-header .top-Navigation {
     background-color: black;
     margin-bottom: 100px;
+}
+
+/* ============ Footer ============= */
+
+.footer {
+    background-color: #151515;
+    color: #f0f0f0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer .container {
+    max-width: 1020px;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.footer__info-item + .footer__info-item {
+    margin-top: 15px;
+}
+
+.item-title {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer__icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px ;
+}
+
+.footer__desc {
+    max-width: 810px;
+    text-align: center;
+    margin: 0 auto 50px auto;
+    align-items: center;
+}
+
+.footer__desc-text{
+    font-size: 14px;
+}
+
+.footer__policy{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer__policy-item{
+
 }
 
 /*=========== Main page =========== */
@@ -314,6 +373,7 @@ img.displaySlide {
 
 .spare {
     margin-bottom: 100px;
+    
 }
 
 .spare__title {
