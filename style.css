@@ -76,6 +76,10 @@ body {
     margin-bottom: 100px;
 }
 
+.contacts-header .top-Navigation {
+    background-color: black;
+    margin-bottom: 100px;
+}
 
 
 .car-selection_nav-list_item a {
@@ -136,10 +140,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 50px;
-}
-
-.footer__policy-item{
-
 }
 
 /*=========== Main page =========== */
@@ -473,3 +473,56 @@ img.displaySlide {
 
 
 /*=========== Contacts page =========== */
+
+.contacts {
+    margin-bottom: 150px;
+}
+
+.contacts .container {
+    max-width: 935px;
+    margin:  auto;
+}
+
+.contacts__title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.contacts__text {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contacts__form {
+    justify-content: center;
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+.contacts__form-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contacts__form input {
+    padding: 10px 15px;
+}
+
+.contacts__form-desc {
+    padding: 10px 15px;
+    grid-column: span 2;
+}
+
+.contacts__form-btn.button {
+    padding: 10px 30px;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 50px auto 0 auto;
+    display: block;
+}
+
