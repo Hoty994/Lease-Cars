@@ -15,6 +15,11 @@ a {
     color: #ffffff;
 }
 
+a:hover {
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
 li {
     list-style-type: none;
 }
@@ -38,6 +43,12 @@ body {
     color: #fff;
     font-weight: 700;
     font-size: 21px;
+}
+
+.button:hover {
+    background-color: #0c5aae;
+    color: #fff;
+    transition: background-color 0.3s ease;
 }
 
 /*=========== Navigation =========== */
@@ -65,17 +76,27 @@ body {
   border-radius: 4px;
 }
 
-
 .nav-links a {
     color: #FFFFFF;
 }
 
+#header__contacts {
+    color: #0066FF;
+}
+
+#header__catalog {
+    color: #0066FF;
+}
 
 .catalog-header .top-Navigation {
     background-color: black;
     margin-bottom: 100px;
 }
 
+.contacts-header .top-Navigation {
+    background-color: black;
+    margin-bottom: 100px;
+}
 
 
 .car-selection_nav-list_item a {
@@ -136,10 +157,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 50px;
-}
-
-.footer__policy-item{
-
 }
 
 /*=========== Main page =========== */
@@ -406,7 +423,9 @@ img.displaySlide {
 
 /* =========== Catalog page =========== */
     
-
+.car-selection{
+    margin-bottom: 150px;
+}
 .car-selection_title{
     text-align: center;
     margin-bottom: 50px; 
@@ -441,9 +460,7 @@ img.displaySlide {
 }
 
 .car-card {
-    width: 251px;
-    display: inline-block;
-
+    object-fit: cover;
     text-align: center;
     align-items: center;
     border: #000000 1px solid;
@@ -451,25 +468,113 @@ img.displaySlide {
 
 
 
-.car-card
-.car-selection_nav{
-    display: flex;
-}
-
 .car-card__link {
     display: flex;
     justify-content: center;
-    /* padding: 10px 20px; */
-    /* background-color: black; */
+    
     border: 1px solid #0066FF;
     padding-bottom: 5px;
     align-items: center;
+    color: #0066FF;
 }
 
 .car-card__item {
     padding-bottom: 10px;
 }
 
+.show-more-btn{
+    padding: 10px 30px;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 50px auto 0 auto;
+    display: block;
+}
+
+.car-selection_header {
+    margin-bottom: 100px;
+}
+
+/* Article */
+
+.article-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.article-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-link{
+    background-color: #0066FF;
+    display: block;
+    padding: 10px 20px;
+}
+
+.article-image{
+    padding-bottom: 33px;
+}
 
 
 /*=========== Contacts page =========== */
+
+.contacts {
+    margin-bottom: 100px;
+}
+
+.contacts .container {
+    max-width: 935px;
+    margin:  auto;
+}
+
+.contacts__title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.contacts__text {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contacts__form {
+    justify-content: center;
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+.contacts__form-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contacts__form input {
+    padding: 10px 15px;
+}
+
+.contacts__form-desc {
+    padding: 10px 15px;
+    grid-column: span 2;
+}
+
+.contacts__form-btn.button {
+    padding: 10px 30px;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 50px auto 0 auto;
+    display: block;
+}
+
+.show-more-btn.cont {
+    margin-bottom: 100px;
+}
+
