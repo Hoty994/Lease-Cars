@@ -483,16 +483,20 @@ img.displaySlide {
 }
 
 .show-more-btn{
-     padding: 10px 30px;
+    padding: 10px 30px;
     font-weight: 400;
     font-size: 12px;
     text-transform: uppercase;
     margin: 50px auto 0 auto;
     display: block;
 }
+
 .car-selection_header {
     margin-bottom: 100px;
 }
+
+/* Article */
+
 .article-section {
     display: flex;
     justify-content: space-between;
@@ -503,20 +507,23 @@ img.displaySlide {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+
 .article-link{
     background-color: #0066FF;
     display: block;
     padding: 10px 20px;
 }
+
 .article-image{
     padding-bottom: 33px;
 }
+
+
 /*=========== Contacts page =========== */
 
 .contacts {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .contacts .container {
@@ -565,5 +572,9 @@ img.displaySlide {
     text-transform: uppercase;
     margin: 50px auto 0 auto;
     display: block;
+}
+
+.show-more-btn.cont {
+    margin-bottom: 100px;
 }
 
